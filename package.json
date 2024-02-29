@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "cd client && next dev",
     "build": "cd client && next build",
-    "start": "cd client && next start"
+    "start": "cd client && next start",
+    "lint": "next lint"
   },
   "author": "",
   "license": "ISC",
