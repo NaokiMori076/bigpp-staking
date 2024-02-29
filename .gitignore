@@ -5,6 +5,7 @@
 /client/.next
 /package-lock.json
 package-lock.json
+/client/build
 
 .secret.json
 
