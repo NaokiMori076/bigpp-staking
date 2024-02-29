@@ -9,12 +9,5 @@
       "src": "public/**",
       "use": "@vercel/static"
     }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
-  ],
-  "env": {
-    "YOUR_ENV_VARIABLE": "YOUR_VALUE"
-  }
+  ]
 }
