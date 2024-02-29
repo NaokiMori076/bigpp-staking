@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "cd client && next dev",
+    "dev": "cd client && cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
     "build": "cd client && next build",
     "start": "cd client && next start"
   },
@@ -17,6 +17,7 @@
     "@openzeppelin/contracts": "^4.9.5",
     "@truffle/hdwallet-provider": "^2.1.15",
     "bootstrap": "^5.0.0-beta3",
+    "cross-env": "^7.0.3",
     "eslint": "7.32.0",
     "formik": "^2.2.9",
     "next": "^11.1.0",
