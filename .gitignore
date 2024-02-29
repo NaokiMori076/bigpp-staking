@@ -3,6 +3,7 @@
 /doc
 /.next
 /client/.next
+/package-lock.json
 
 .secret.json
 
