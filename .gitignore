@@ -2,6 +2,7 @@
 /node_modules
 /doc
 /.next
+/client/.next
 /package-lock.json
 package-lock.json
 
